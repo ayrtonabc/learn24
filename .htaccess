@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirige todas las solicitudes hacia index.html
+RewriteRule ^(.*)$ /index.html [QSA,L]
